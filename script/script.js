@@ -52,3 +52,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             showSection('inicio');
         });
+
+        function Confirmacion(){
+        alert("Confirmar asistencia")
+        }
