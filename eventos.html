@@ -85,28 +85,22 @@
   
         </div>
       </div>
-    <center><div class="right-side">
-        <h2 class="section-title">Forma parte de los eventos</h2>
-      <form action="#">
-        <div class="input-box">
-        <input type="text" placeholder="Nombre">
-        </div>
-        <div class="input-box">
-        <input type="text" placeholder="Email">
-        </div>
-        <div class="input-box message-box">
-          <br>
-          <br>
-        </div>
-        <div class="button">
-          <input type="button" value="Enviar" >
-        </div>
-      </form>
-    </div>
-    </div>
-  </div>
-</body>
-</html></center>
+    <form action="/my-handling-form-page" method="post">
+  <ul>
+    <li>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="user_name" />
+    </li>
+    <li>
+      <label for="mail">Correo electrónico:</label>
+      <input type="email" id="mail" name="user_mail" />
+    </li>
+    <li>
+      <label for="msg">Mensaje:</label>
+      <textarea id="msg" name="user_message"></textarea>
+    </li>
+  </ul>
+</form>
 
     <br>
     <br>
